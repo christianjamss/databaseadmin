@@ -1,0 +1,92 @@
+.w3-sidebar {
+    width: 120px;
+    background: #222;
+}
+
+
+#main {
+    margin-left: 120px
+}
+
+
+@media only screen and (max-width: 600px) {
+    #main {
+        margin-left: 0
+    }
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Montserrat", sans-serif
+}
+
+.w3-row-padding img {
+    margin-bottom: 12px
+}
+
+body {
+    background-image: url(bg.png);
+
+    background-size: cover;
+
+    background-position: center center;
+
+    background-attachment: fixed;
+
+    color: white;
+
+}
+
+
+@font-face {
+    font-family: 'Inside Out';
+    src: url('fonts/InsideOut.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.image-container {
+    position: relative;
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 15px;
+    height: 250px;
+}
+
+.image-container:hover {
+    box-shadow: 0px 0px 50px rgb(255, 251, 0);
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    border-radius: 8px;
+
+}
+
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.col {
+    width: 32%;
+    margin-bottom: 15px;
+}
+
+a:focus {
+    outline: 2px solid blue;
+    outline-offset: 4px;
+}
